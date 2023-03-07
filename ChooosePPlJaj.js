@@ -83,6 +83,6 @@ confirmButton.addEventListener("click", () => {
     if (selectedTimeSlotButton === null) {
         alert("Please select a time slot");
     } else {
-        alert(`Time slot ${selectedTimeSlotButton.value} has been reserved`);
+        window.location.replace("ThankYouPage.html");
     }
 });
