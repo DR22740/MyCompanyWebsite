@@ -1,0 +1,147 @@
+/* 		<div class="button-group">
+			<button class="time-slot-button" value="08:00">8:00 AM</button>
+			<button class="time-slot-button" value="09:00">9:00 AM</button>
+			<button class="time-slot-button" value="10:00">10:00 AM</button>
+			<button class="time-slot-button" value="11:00">11:00 AM</button>
+			<button class="time-slot-button" value="12:00">12:00 PM</button>
+			<button class="time-slot-button" value="13:00">1:00 PM</button>
+			<button class="time-slot-button" value="14:00">2:00 PM</button>
+			<button class="time-slot-button" value="15:00">3:00 PM</button>
+			<button class="time-slot-button" value="16:00">4:00 PM</button>
+			<button class="time-slot-button" value="17:00">5:00 PM</button>
+			<button class="time-slot-button" value="18:00">6:00 PM</button>
+			<button class="time-slot-button" value="19:00">7:00 PM</button>
+			<button class="time-slot-button" value="20:00">8:00 PM</button>
+		</div>
+        
+        CSS for Personnel Availability Schedule */
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
+          
+          nav {
+            display: flex;
+            align-items: center;
+          }
+          
+          ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between; /* distribute items evenly */
+            width: 100%; /* ensure full width */
+          }
+          
+          li {
+            margin-right: 20px;
+          }
+          
+          a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: all 0.2s ease;
+          }
+          
+          a:hover {
+            color: #ff5500;
+          }
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+select {
+	padding: 5px;
+	font-size: 16px;
+}
+
+#timetable {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1200px;
+}
+
+.time-slot {
+	flex: 0 0 23%;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+
+.time-slot-label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.time-slot-button {
+	background-color: #008CBA;
+	color: #fff;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.time-slot-button:hover {
+	background-color: #006080;
+}
+
+.confirm-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.confirm-button button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.confirm-button button:hover {
+    background-color: #3e8e41;
+}
+.time-slot-button.selected {
+	background-color: #4CAF50;
+	color: white;
+}
