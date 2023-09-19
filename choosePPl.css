@@ -1,54 +1,59 @@
-/* 		<div class="button-group">
-			<button class="time-slot-button" value="08:00">8:00 AM</button>
-			<button class="time-slot-button" value="09:00">9:00 AM</button>
-			<button class="time-slot-button" value="10:00">10:00 AM</button>
-			<button class="time-slot-button" value="11:00">11:00 AM</button>
-			<button class="time-slot-button" value="12:00">12:00 PM</button>
-			<button class="time-slot-button" value="13:00">1:00 PM</button>
-			<button class="time-slot-button" value="14:00">2:00 PM</button>
-			<button class="time-slot-button" value="15:00">3:00 PM</button>
-			<button class="time-slot-button" value="16:00">4:00 PM</button>
-			<button class="time-slot-button" value="17:00">5:00 PM</button>
-			<button class="time-slot-button" value="18:00">6:00 PM</button>
-			<button class="time-slot-button" value="19:00">7:00 PM</button>
-			<button class="time-slot-button" value="20:00">8:00 PM</button>
-		</div>
+/*
+<div class="button-group">
+    <button class="time-slot-button" value="08:00">8:00 AM</button>
+    <button class="time-slot-button" value="09:00">9:00 AM</button>
+    <button class="time-slot-button" value="10:00">10:00 AM</button>
+    <button class="time-slot-button" value="11:00">11:00 AM</button>
+    <button class="time-slot-button" value="12:00">12:00 PM</button>
+    <button class="time-slot-button" value="13:00">1:00 PM</button>
+    <button class="time-slot-button" value="14:00">2:00 PM</button>
+    <button class="time-slot-button" value="15:00">3:00 PM</button>
+    <button class="time-slot-button" value="16:00">4:00 PM</button>
+    <button class="time-slot-button" value="17:00">5:00 PM</button>
+    <button class="time-slot-button" value="18:00">6:00 PM</button>
+    <button class="time-slot-button" value="19:00">7:00 PM</button>
+    <button class="time-slot-button" value="20:00">8:00 PM</button>
+</div>
         
-        CSS for Personnel Availability Schedule */
+CSS for Personnel Availability Schedule */
 
-        header {
-            background-color: #f2f2f2;
-            padding: 20px;
-          }
+header {
+  background-color: #333;
+  padding: 20px;
+}
           
-          nav {
-            display: flex;
-            align-items: center;
-          }
+nav {
+  display: flex;
+  align-items: center;
+}
           
-          ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: space-between; /* distribute items evenly */
-            width: 100%; /* ensure full width */
-          }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; /* distribute items evenly */
+  width: 100%; /* ensure full width */
+}
           
-          li {
-            margin-right: 20px;
-          }
+li {
+  margin-right: 20px;
+}
           
-          a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            transition: all 0.2s ease;
-          }
+a {
+  text-decoration: none;
+}
+
+nav a{
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
           
-          a:hover {
-            color: #ff5500;
-          }
+nav a:hover {
+  color: #ff5500;
+}
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
